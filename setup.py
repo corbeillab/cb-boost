@@ -4,11 +4,8 @@
 # Copyright(c) 2021 Baptiste BAUVIN
 # -----------------
 #
-# Licensed under the Apache License, Version 2.0 (the "License");
+# Licensed under the New BSD license,  (the "License");
 # you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#    http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -35,7 +32,7 @@
 #
 # Licence:
 # -------
-# License: GPL-3
+# New BSD
 #
 #
 # ######### COPYRIGHT #########
@@ -59,7 +56,7 @@ def setup_package():
     author_email = 'baptiste.bauvin@lis-lab.fr'
     maintainer = 'Baptiste BAUVIN',
     maintainer_email = 'baptiste.bauvin@lis-lab.fr',
-    license = 'Apache-2.0'
+    license = 'New BSD'
     keywords = ('machine learning, supervised learning, classification, '
                 'ensemble methods, c-bound')
     packages = find_packages(exclude=['*.tests'])
